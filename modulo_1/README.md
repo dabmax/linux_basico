@@ -9,6 +9,8 @@
 * **Kernel:** O coração que gerencia hardware.
 * **GRUB:** Menu que carrega o Kernel e permite recuperação do sistema.
 
+
+```
 +-------------------------------------------------------+
 
 |                 USUÁRIO (Você / Apps)                 |
@@ -38,7 +40,7 @@
 |                HARDWARE (A Máquina Real)              |
 |          "Processador, RAM, Placa de Vídeo"           |
 +-------------------------------------------------------+
-
+```
 
 ## 3. Estrutura de Diretórios (FHS)
 * `/` : Raiz (onde tudo começa).
@@ -47,16 +49,17 @@
 * `/root` : Pasta do superusuário.
 * `/var/log` : Onde o sistema "fofoca" o que está acontecendo (logs).
 
-graph TD
-    A[/ Raiz] --> B(bin: Comandos do Sistema)
-    A --> C(etc: Configurações)
-    A --> D(home: Pastas dos Usuários)
-    A --> E(var: Logs e Dados Variáveis)
-    A --> F(root: Superusuário)
-    D --> G[Seu Usuário]
-    G --> H[Documentos]
-    G --> I[Downloads]
-
+```mermaid
+graph TD;
+    Raiz(Raiz /)-->bin(bin: Comandos do Sistema);
+    Raiz-->etc(etc: Configurações);
+    Raiz-->home(home: Pastas dos Usuários);
+    Raiz-->var(var: Logs e Dados Variáveis);
+    Raiz-->root(root: Superusuário);
+    home-->User[Seu Usuário];
+    User-->Doc[Documentos];
+    User-->Down[Downloads];
+```
 
 ## 4. Comandos Essenciais
 
