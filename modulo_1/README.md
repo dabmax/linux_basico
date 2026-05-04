@@ -68,6 +68,9 @@ graph TD;
 | `pwd`   | Mostra onde você está |
 | `ls -la`| Lista arquivos (incluindo ocultos) |
 | `cd`    | Navega entre pastas |
+| `mkdir` | Criar diretórios |
+| `mv`    | Renomear e mover arquivos ou diretórios |
+| `rm`    | Remove diretórios |
 | `sudo`  | Executa como administrador |
 | `apt install` | Instala novos softwares (em Debian/Ubuntu) |
 
