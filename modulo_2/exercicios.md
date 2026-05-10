@@ -1,7 +1,3 @@
-### 2. `modulo 2/exercicio.md`
-Desafios práticos para fixar o conhecimento.
-
-```markdown
 # 📑 Exercícios de Fixação - Módulo 2
 
 ### Desafio 1: Gestão de Usuários
