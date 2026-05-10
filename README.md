@@ -7,4 +7,4 @@ Aprender Linux não é sobre decorar comandos, mas sobre entender a filosofia de
 
 ## 📂 Estrutura do Curso
 - **[Módulo 1](./modulo_1/):** História, Estrutura de Arquivos e Primeiros Comandos.
-- **Módulo 2:** (Em breve)
+- **[Módulo 2](./modulo_2/):** O Poder do Superusuário e a Orquestração de Dados.
